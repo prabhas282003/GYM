@@ -59,7 +59,11 @@
 <div class="p-4">
 	<h1 class="text-2xl font-bold mb-4 dark:text-white">Daily Journal</h1>
 	<textarea
+<<<<<<< HEAD
 		bind:value={"inputContent"}
+=======
+		bind:value={inputContent}
+>>>>>>> 4a72a10d199cef937553af8949a6fc5485aa4e00
 		class="w-full h-64 p-4 border rounded dark:bg-gray-700 dark:text-white"
 		placeholder="Write your thoughts..."
 	></textarea>
@@ -82,14 +86,14 @@
 			<p class="text-xs text-gray-400 mt-1">Created: {new Date(item.createdAt).toLocaleString()}</p>
 			<div class="mt-2 flex space-x-2">
 				<button
-					on:click=""{() =>
+					on:click={() =>
 					startEditing(item.id, item.content)}
 					class="bg-yellow-500 text-white p-2 rounded"
 					>
 					Edit
 				</button>
 				<button
-					on:click=""{() =>
+					on:click={() =>
 					deleteEntry(item.id)}
 					class="bg-red-500 text-white p-2 rounded"
 					>
