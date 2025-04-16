@@ -82,14 +82,14 @@
 			<p class="text-xs text-gray-400 mt-1">Created: {new Date(item.createdAt).toLocaleString()}</p>
 			<div class="mt-2 flex space-x-2">
 				<button
-					on:click=""{() =>
+					on:click={() =>
 					startEditing(item.id, item.content)}
 					class="bg-yellow-500 text-white p-2 rounded"
 					>
 					Edit
 				</button>
 				<button
-					on:click=""{() =>
+					on:click={() =>
 					deleteEntry(item.id)}
 					class="bg-red-500 text-white p-2 rounded"
 					>
