@@ -16,8 +16,8 @@
     },
     {
       icon: '⏰',
-      title: 'Auto-Rescheduling',
-      description: 'Overdue tasks automatically move to the next business day'
+      title: 'Rescheduling',
+      description: 'we can select an Overdue tasks and  can be rescheduled to specific date and time '
     },
     {
       icon: '📍',
