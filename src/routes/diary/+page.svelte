@@ -59,7 +59,7 @@
 <div class="p-4">
 	<h1 class="text-2xl font-bold mb-4 dark:text-white">Daily Journal</h1>
 	<textarea
-		bind:value={"inputContent"}
+		bind:value={inputContent}
 		class="w-full h-64 p-4 border rounded dark:bg-gray-700 dark:text-white"
 		placeholder="Write your thoughts..."
 	></textarea>
