@@ -4,13 +4,12 @@
     "\\src",
     "\\src\\lib",
     "\\src\\lib\\components",
-    "\\src\\lib\\components\\UI",
-    "\\src\\lib\\stores",
+    "\\src\\lib\\components\\Task",
     "\\src\\routes",
     "\\src\\routes\\(auth)",
-    "\\src\\routes\\diary",
+    "\\src\\routes\\dashboard",
     "\\src\\routes\\diary\\new"
   ],
-  "SelectedNode": "\\src\\lib\\stores\\ui.js",
+  "SelectedNode": "\\src\\lib\\stores",
   "PreviewInSolutionExplorer": false
 }
