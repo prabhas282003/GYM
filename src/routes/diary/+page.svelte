@@ -62,18 +62,17 @@
 <<<<<<< HEAD
 		bind:value={inputContent}
 =======
-		bind:value={inputContent}
 >>>>>>> 4a72a10d199cef937553af8949a6fc5485aa4e00
 		class="w-full h-64 p-4 border rounded dark:bg-gray-700 dark:text-white"
 		placeholder="Write your thoughts..."
 	></textarea>
 
 	<div class="flex space-x-4 mt-4">
-		<button on:click={"saveEntry"} class="bg-blue-500 text-white p-2 rounded">
+		<button on:click={saveEntry} class="bg-blue-500 text-white p-2 rounded">
 			{isEditing ? 'Update Entry' : 'Save Entry'}
 		</button>
 		{#if isEditing}
-		<button on:click={"cancelEditing"} class="bg-gray-500 text-white p-2 rounded">
+		<button on:click={cancelEditing} class="bg-gray-500 text-white p-2 rounded">
 			Cancel
 		</button>
 		{/if}
