@@ -14,7 +14,7 @@ If you're seeing this, you've probably alreadyyyy done this step. Congrats!
 npx sv create
 
 # create a new project in my-appopp
-npx sv create my-app
+npx sv create my---app
 ```
 
 ## Developing
