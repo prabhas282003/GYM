@@ -13,7 +13,7 @@ If you're seeing this, you've probably alreadyyyy done this step. Congrats!
 # create a new project in the current directory
 npx sv create
 
-# create a new project in my-appopp
+# create a new project in my-appopppp
 npx sv create my---app
 ```
 
